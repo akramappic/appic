@@ -1,0 +1,26 @@
+{
+    "name": "bcamq/greetr",
+    "description": "this is appic demo package in laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bcamq\\Greetr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "akram",
+            "email": "akram@appic.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bcamq\\Greetr\\GreetrServiceProvider"
+            ]
+        }
+    }
+}
